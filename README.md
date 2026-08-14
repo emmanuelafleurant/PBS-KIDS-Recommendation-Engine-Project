@@ -1,5 +1,6 @@
 # Summer 2026 Product & Technology Internship
 
+
 ## Project Description
 
 The goal of this project was to explore how PBS KIDS could recommend relevant content to users while working within a constraint: the recommendation engine cannot rely on personal user data. Over the summer, my manager and I focused specifically on PBS KIDS games, because the games had metadata that described their characteristics and the number of games is small. We used this information to design an algorithmic approach that uses content metadata to identify meaningful recommendations.
