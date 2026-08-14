@@ -29,26 +29,6 @@ Client (PBS KIDS website/app)
                     └── Return 4 recommendations (JSON)
 ```
 
-## CSV columns
-
-| Column | Description |
-|--------|-------------|
-| `id` | Unique content identifier |
-| `type` | `game` or `video` |
-| `title` | Display title |
-| `slug` | URL slug |
-| `theme` | Pipe-delimited theme tags (e.g., `Space\|Animals`) |
-| `tags` | Pipe-delimited cross-cutting tags |
-| `gameplay` | Pipe-delimited gameplay style tags |
-| `mechanic` | Pipe-delimited learning mechanic tags |
-| `perspective` | Pipe-delimited perspective tags |
-| `minimumAge` | Editorial minimum age (may be null) |
-| `maximumAge` | Editorial maximum age (may be null) |
-| `showMinimumAge` | Show-level minimum age fallback |
-| `showMaximumAge` | Show-level maximum age fallback |
-| `minCurriculumAge` | Curriculum minimum age fallback |
-| `maxCurriculumAge` | Curriculum maximum age fallback |
-
 
 ## API service 
 
