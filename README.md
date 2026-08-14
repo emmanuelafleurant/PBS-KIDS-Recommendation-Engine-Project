@@ -1,6 +1,6 @@
-## Summer 2026 Product & Technology Internship
+# Summer 2026 Product & Technology Internship
 
-# Project Description
+## Project Description
 
 The goal of this project was to explore how PBS KIDS could recommend relevant content to users while working within a constraint: the recommendation engine cannot rely on personal user data. Over the summer, my manager and I focused specifically on PBS KIDS games, because the games had metadata that described their characteristics and the number of games is small. We used this information to design an algorithmic approach that uses content metadata to identify meaningful recommendations.
 
@@ -8,7 +8,7 @@ During the project, we researched widely used streaming service recommendation s
 
 In addition to developing the algorithm approach, we conducted surveys and interviews to gather user and stakeholder perspectives on the approach. We also created a prototype user experience to show how the recommendation engine could appear to users and support future product conversations.
 
-# Lessons Learned
+## Lessons Learned
 A major takeaway from the project was the opportunity to research recommendation engines and learn how similar systems are designed and evaluated. Through my research, I was able to explore systems and apply that learning to the specific needs of PBS KIDS. Companies like Netflix focus on capturing user’s interest through extensive data collection, including viewing history, device types, operation system, content metadata, user interactions including their habits, art personalization, user profile, and more. In contrast, PBS KIDS’ goal is to make recommendations using only Content ID.  
 
 I also learned more about how to communicate ideas, gather feedback from experienced engineers, and adjust my thinking based on that feedback.
@@ -25,7 +25,7 @@ In the future, I want to share my ideas and get feedback early for work and coll
 
  
 
-# Next Steps
+## Next Steps
 The recommendation approach developed during this project could support several use cases. PBS KIDS could add a CMS module that allows content editors to design pages which include a “Recommended for You” section, incorporate the algorithm as a sorting strategy to personalize collections of games and videos, or provide content curators with a tool that suggests items for collections in the CMS control panel. The system could also become an external service for partners to power smart “Watch Next” selections.
 
 In my opinion, implementing a module in the CMS for pages to include a recommended for you section would be the logical next step. This step would encourage experimentation, meaning it can be scratched off if users are not responding to the changes. There can also be playtesting for parents and kids to get their opinions on the recommendation engine without commitment.
