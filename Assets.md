@@ -1,6 +1,7 @@
 # Assets explaination
 
 # Asset folder
+```
 Assets 
     ├──STEAM-inspo-v2.jpeg              mockup inspired by STEAM discovery page
     ├──STEAM-inspo-zoom-out.jpeg        mockup inspired by STEAM discovery page zoom out
@@ -12,6 +13,7 @@ Assets
     ├──survey-1.png                     first survey question (ranking system)
     ├──survey-2.png                     second survery question (ranking system)
     └──survey-3.png                     third survey quesiton (ranking system)
+```
 
 These assets were used to visualize possible user experience. (see Assets folder)
 
