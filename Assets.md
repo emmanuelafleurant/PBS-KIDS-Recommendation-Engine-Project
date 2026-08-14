@@ -50,37 +50,6 @@ Client (PBS KIDS website/app)
 | `maxCurriculumAge` | Curriculum maximum age fallback |
 
 
-## Project structure
-
-```
-bin/                              CDK app entry point
-lib/
-├── config.ts                     Environment configuration (dotenv + getConfig)
-├── recommendation-service-stack.ts   CDK stack definition
-├── lambda-layer-stack.ts         Lambda layer stack
-├── lambda-handler/
-│   ├── index.ts                  Lambda handler entry point
-│   ├── data/
-│   │   └── content.csv           Bundled content dataset
-│   ├── scoring/
-│   │   ├── jaccard.ts            Jaccard index calculation
-│   │   ├── dimensions.ts         themeScore, mechScore, ageScore
-│   │   └── recommender.ts        Four-pairing selection logic
-│   ├── models/
-│   │   └── content-item.ts       CSV row → domain model
-│   ├── validation/
-│   │   └── input-validator.ts    Query param validation
-│   ├── responses/
-│   │   └── response-builder.ts   Response shape
-│   ├── errors/
-│   │   └── error-handler.ts      Error types and HTTP mapping
-│   └── logging/
-│       └── logger.ts             Structured JSON logger (AWS Lambda Powertools)
-├── layer/                        Lambda layer dependencies
-test/                             Jest test suite
-docs/                             Architecture and algorithm documentation
-.github/workflows/                CI/CD pipelines
-```  
 ## API service 
 
 ### `Get /recommendations`
